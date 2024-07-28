@@ -1,0 +1,1974 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <style>
+      .dropdown-menu-scroll {
+        max-height: 300px;
+        overflow-y: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <strong>This is the Educational site!</strong> You Need to used my code
+      from the React JS.
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-black">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://www.upgrad.com/_ww3-next/_next/static/media/upgrad-header-logo.19ba8cde.svg"
+            alt="logo image"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <button
+                type="button"
+                class="btn btn-dark text-white ml-auto nav-link dropdown-toggle"
+                href="#"
+                id="coursesDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Courses
+              </button>
+              <div
+                class="dropdown-menu dropdown-menu-scroll"
+                aria-labelledby="coursesDropdown"
+              >
+                <h6 class="dropdown-header">Domains</h6>
+                <a class="dropdown-item" href="#">MBA</a>
+                <a class="dropdown-item" href="#">Data Science & Analytics</a>
+                <a class="dropdown-item" href="#">Software & Tech</a>
+                <a class="dropdown-item" href="#">Management</a>
+                <a class="dropdown-item" href="#">AI & ML</a>
+                <a class="dropdown-item" href="#">Marketing</a>
+                <a class="dropdown-item" href="#">Law</a>
+                <div class="dropdown-divider"></div>
+                <h6 class="dropdown-header">Goals</h6>
+                <a class="dropdown-item" href="#">Get a Degree</a>
+                <a class="dropdown-item" href="#">Get a Certificate</a>
+                <a class="dropdown-item" href="#">Get a Doctorate</a>
+                <a class="dropdown-item" href="#">Study Abroad</a>
+                <a class="dropdown-item" href="#">Job Advancement</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="margin-left: 400px"
+                >Refer and Earn</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Study Abroad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Free Masterclass</a>
+            </li>
+          </ul>
+          <button class="btn btn-danger btn-lg ml-auto">Sign Up</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container d-flex flex-wrap py-3">
+      <div class="left-section col-md-5 col-12 mb-3 mb-md-0">
+        <img
+          src="images/main.jpeg"
+          alt="main-image"
+          class="main-image img-fluid"
+        />
+      </div>
+      <div
+        class="right-section d-flex flex-column align-items-start flex-grow-0 flex-shrink-0 p-5 justify-content-between col-md-7 col-12 bg-white z-1"
+      >
+        <h1 class="gradient-text">
+          500+ Courses.<br />
+          50+ Specialisations.<br />
+        </h1>
+        <h1 class="f-bold">Upskill and Transform Your <br />Career!</h1>
+
+        <div class="icon-space">
+          <div class="d-flex flex-wrap align-items-center icon-come">
+            <div class="d-flex align-items-center me-3 mb-2">
+              <i
+                class="fa fa-graduation-cap"
+                style="font-size: 15px; color: purple"
+              ></i>
+              <p class="degree-name ms-2">Degrees</p>
+            </div>
+            <div class="d-flex align-items-center me-3 mb-2">
+              <i
+                class="fa fa-graduation-cap"
+                style="font-size: 15px; color: purple"
+              ></i>
+              <p class="degree-name ms-2">Certifications</p>
+            </div>
+            <div class="d-flex align-items-center me-3 mb-2">
+              <i
+                class="fa fa-graduation-cap"
+                style="font-size: 15px; color: purple"
+              ></i>
+              <p class="degree-name ms-2">Bootcamps</p>
+            </div>
+            <div class="d-flex align-items-center mb-2">
+              <i
+                class="fa fa-graduation-cap"
+                style="font-size: 15px; color: purple"
+              ></i>
+              <p class="degree-name ms-2">Study Abroad</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="">
+          <div class="form-group mb-3">
+            <label for="domain">Select your domain</label>
+            <select id="domain" name="domain" class="form-control">
+              <option value="">Select your domain</option>
+              <option value="tech">Tech</option>
+              <option value="business">Business</option>
+              <option value="data-science">Data Science</option>
+            </select>
+          </div>
+          <div class="form-group mb-3">
+            <label for="qualification">Select your highest qualification</label>
+            <select
+              id="qualification"
+              name="qualification"
+              class="form-control"
+            >
+              <option value="">Select your highest qualification</option>
+              <option value="bachelors">Bachelors</option>
+              <option value="masters">Masters</option>
+              <option value="phd">PhD</option>
+            </select>
+          </div>
+          <button type="button" class="explore-button btn btn-primary">
+            Explore Courses
+          </button>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="container py-5">
+      <div class="d-flex border border-gradient bg-white row-box flex-wrap">
+        <div class="col-12 col-md-4 text-paragraph">
+          <h1 class="gradient-text">10 Million+</h1>
+          <p>Learners Have Trusted Us</p>
+        </div>
+        <div class="col-12 col-md-4 text-paragraph">
+          <h1 class="gradient-text">50%</h1>
+          <p>Average Salary Hike</p>
+        </div>
+        <div class="col-12 col-md-4 text-paragraph">
+          <h1 class="gradient-text">83%</h1>
+          <p>Happy with Outcome</p>
+        </div>
+      </div>
+    </div>
+    <div class="container py-5">
+      <div class="text-center my-4">
+        <h2>Our Knowledge Partners</h2>
+      </div>
+      <div class="position-relative py-5">
+        <div class="left-gradient"></div>
+
+        <div class="container overflow-hidden mx-auto bg-white py-5">
+          <div class="loop-slider">
+            <div class="inner d-flex">
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/BIMTECH-62f29e0e379d4f7d987a48d2c46116e0.png"
+                alt="BIMTECH"
+                class="img-fluid"
+              />
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/Deakin University-1e04be506f0a430aa23d0d6a1f5125ef.png"
+                alt="Deakin"
+                class="img-fluid"
+              />
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/Duke CE-cfd74146fe3f441eac6b635991c3402e.png"
+                alt="Duke"
+                class="img-fluid"
+              />
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/GGU insofe-da19130aa90a4faa9f79ada45dab425c.png"
+                alt="GGU Insofe"
+                class="img-fluid"
+              />
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/GGU-c28f9e6044534868beadaab51e3c4d52.png"
+                alt="GGU"
+                class="img-fluid"
+              />
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/IIITB-3778ca1498c74309bde197cdd4babd11.png"
+                alt="IIITB"
+                class="img-fluid"
+              />
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/IIM kozhikode-5635a746bdf14b63a1fd0bced5d76fe3.png"
+                alt="IIMK"
+                class="img-fluid"
+              />
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/IMT gazhiabaad-23ae0ed86d2f4d538537330ecac6648a.png"
+                alt="IMT Ghaziabad"
+                class="img-fluid"
+              />
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/IU Uni-bdbd660094bc409e998f12a13e096446.png"
+                alt="IU Germany"
+                class="img-fluid"
+              />
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/LJMU-e6bbb6c898c64fa9b07e2f41bee761d4.png"
+                alt="LJMU"
+                class="img-fluid"
+              />
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/Michigan State University_-4fee2c11b6c14e7c9d6724b98538341b.png"
+                alt="Michigan State University"
+                class="img-fluid"
+              />
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/OPJ-6578edf38df44efe81709b1e76a2e100.png"
+                alt="OPJ"
+                class="img-fluid"
+              />
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/UoM-0a4f8f6c671d485ea510e3748cfcb606.png"
+                alt="University of Maryland"
+                class="img-fluid"
+              />
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/WHarton-3cc73b84e1ae4c2eb44c7d5965155c06.png"
+                alt="Wharton"
+                class="img-fluid"
+              />
+              <!-- Repeat images if needed for continuous loop -->
+            </div>
+          </div>
+        </div>
+
+        <div class="right-gradient"></div>
+      </div>
+    </div>
+    <div class="custom-div text-center">
+      <h1 class="my-5">
+        Aage Ki Socho
+        <h5>Discover in-demand courses across industries</h5>
+      </h1>
+
+      <div class="d-flex justify-content-center flex-wrap">
+        <div
+          class="program-card d-flex flex-column justify-center align-items-center rounded"
+        >
+          <img
+            src="https://d2o2utebsixu4k.cloudfront.net/ea6b3e68-5c32-4d20-87cb-08dc3961750e-83731e1e97f74c0aa983246fb85e03c8.jpg"
+            alt="DBA in DL from GGU"
+            loading="lazy"
+          />
+          <a
+            target="_blank"
+            class="btn btn-primary"
+            href="https://www.upgrad.com/dba-in-digital-leadership-ggu/"
+            >View Program</a
+          >
+        </div>
+        <div
+          class="program-card d-flex flex-column justify-center align-items-center rounded"
+        >
+          <img
+            src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2FDSM-2a5f2f486a954a9b958a55bd1cb57ec2.webp&w=1920&q=75"
+            alt="Data Science Bootcamp"
+            loading="lazy"
+          />
+          <a
+            target="_blank"
+            class="btn btn-primary"
+            href="https://www.upgrad.com/data-science-bootcamp/"
+            >View Program</a
+          >
+        </div>
+        <div
+          class="program-card d-flex flex-column justify-center align-items-center rounded"
+        >
+          <img
+            src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2F0abf0418-96bb-4e6e-97d1-04022856af7b-5956acf8303e47d8845c74971229d5cb.jpg&w=1920&q=75"
+            alt="Cloud Computing & DevOps Program"
+            loading="lazy"
+          />
+          <a
+            target="_blank"
+            class="btn btn-primary"
+            href="https://www.upgrad.com/cloud-computing-devops/"
+            >View Program</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row py-5">
+        <div class="col-md-4">
+          <div class="card card-custom">
+            <img
+              src="https://d2o2utebsixu4k.cloudfront.net/upgrad/uni-cards-logos/MBA_Uni_IMG_Dweb/MBA_Program_Dweb_Liverpool.webp"
+              alt="Liverpool Business School"
+            />
+            <div class="bestseller-tag">BESTSELLER</div>
+            <div class="card-body">
+              <p class="text-primary">Liverpool Business School</p>
+              <h5>MBA from Liverpool Business School</h5>
+              <p>Integrated with GenAI modules</p>
+              <p>
+                Master's Degree <br /><i
+                  class="fa-regular fa-calendar-days"
+                ></i>
+                18 Months <br /><i class="fa-regular fa-star"></i> WES
+                Recognized MBA degree
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-primary">View Program</button>
+              <button class="btn btn-primary">Syllabus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-custom">
+            <img
+              src="https://d2o2utebsixu4k.cloudfront.net/upgrad/uni-cards-logos/MBA_Uni_IMG_Dweb/MBA_Program_Dweb_Liverpool.webp"
+              alt="Liverpool Business School"
+            />
+            <div class="bestseller-tag">BESTSELLER</div>
+            <div class="card-body">
+              <p class="text-primary">Liverpool Business School</p>
+              <h5>MBA from Liverpool Business School</h5>
+              <p>Integrated with GenAI modules</p>
+              <p>
+                Master's Degree <br />
+                18 Months <br />
+                WES Recognized MBA degree
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-primary">View Program</button>
+              <button class="btn btn-primary">Syllabus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-custom">
+            <img
+              src="https://d2o2utebsixu4k.cloudfront.net/upgrad/uni-cards-logos/MBA_Uni_IMG_Dweb/MBA_Program_Dweb_Liverpool.webp"
+              alt="Liverpool Business School"
+            />
+            <div class="bestseller-tag">BESTSELLER</div>
+            <div class="card-body">
+              <p class="text-primary">Liverpool Business School</p>
+              <h5>MBA from Liverpool Business School</h5>
+              <p>Integrated with GenAI modules</p>
+              <p>
+                Master's Degree <br />
+                18 Months <br />
+                WES Recognized MBA degree
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-primary">View Program</button>
+              <button class="btn btn-primary">Syllabus</button>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for other cards -->
+      </div>
+      <div class="row py-5">
+        <div class="col-md-4">
+          <div class="card card-custom">
+            <img
+              src="https://d2o2utebsixu4k.cloudfront.net/upgrad/uni-cards-logos/MBA_Uni_IMG_Dweb/MBA_Program_Dweb_Liverpool.webp"
+              alt="Liverpool Business School"
+            />
+            <div class="bestseller-tag">BESTSELLER</div>
+            <div class="card-body">
+              <p class="text-primary">Liverpool Business School</p>
+              <h5>MBA from Liverpool Business School</h5>
+              <p>Integrated with GenAI modules</p>
+              <p>
+                Master's Degree <br />
+                18 Months <br />
+                WES Recognized MBA degree
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-primary">View Program</button>
+              <button class="btn btn-primary">Syllabus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-custom">
+            <img
+              src="https://d2o2utebsixu4k.cloudfront.net/upgrad/uni-cards-logos/MBA_Uni_IMG_Dweb/MBA_Program_Dweb_Liverpool.webp"
+              alt="Liverpool Business School"
+            />
+            <div class="bestseller-tag">BESTSELLER</div>
+            <div class="card-body">
+              <p class="text-primary">Liverpool Business School</p>
+              <h5>MBA from Liverpool Business School</h5>
+              <p>Integrated with GenAI modules</p>
+              <p>
+                Master's Degree <br />
+                18 Months <br />
+                WES Recognized MBA degree
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-primary">View Program</button>
+              <button class="btn btn-primary">Syllabus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-custom">
+            <img
+              src="https://d2o2utebsixu4k.cloudfront.net/upgrad/uni-cards-logos/MBA_Uni_IMG_Dweb/MBA_Program_Dweb_Liverpool.webp"
+              alt="Liverpool Business School"
+            />
+            <div class="bestseller-tag">BESTSELLER</div>
+            <div class="card-body">
+              <p class="text-primary">Liverpool Business School</p>
+              <h5>MBA from Liverpool Business School</h5>
+              <p>Integrated with GenAI modules</p>
+              <p>
+                Master's Degree <br />
+                18 Months <br />
+                WES Recognized MBA degree
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-primary">View Program</button>
+              <button class="btn btn-primary">Syllabus</button>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for other cards -->
+      </div>
+      <div class="row py-5">
+        <div class="col-md-4">
+          <div class="card card-custom">
+            <img
+              src="https://d2o2utebsixu4k.cloudfront.net/upgrad/uni-cards-logos/MBA_Uni_IMG_Dweb/MBA_Program_Dweb_Liverpool.webp"
+              alt="Liverpool Business School"
+            />
+            <div class="bestseller-tag">BESTSELLER</div>
+            <div class="card-body">
+              <p class="text-primary">Liverpool Business School</p>
+              <h5>MBA from Liverpool Business School</h5>
+              <p>Integrated with GenAI modules</p>
+              <p>
+                Master's Degree <br />
+                18 Months <br />
+                WES Recognized MBA degree
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-primary">View Program</button>
+              <button class="btn btn-primary">Syllabus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-custom">
+            <img
+              src="https://d2o2utebsixu4k.cloudfront.net/upgrad/uni-cards-logos/MBA_Uni_IMG_Dweb/MBA_Program_Dweb_Liverpool.webp"
+              alt="Liverpool Business School"
+            />
+            <div class="bestseller-tag">BESTSELLER</div>
+            <div class="card-body">
+              <p class="text-primary">Liverpool Business School</p>
+              <h5>MBA from Liverpool Business School</h5>
+              <p>Integrated with GenAI modules</p>
+              <p>
+                Master's Degree <br />
+                18 Months <br />
+                WES Recognized MBA degree
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-primary">View Program</button>
+              <button class="btn btn-primary">Syllabus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-custom">
+            <img
+              src="https://d2o2utebsixu4k.cloudfront.net/upgrad/uni-cards-logos/MBA_Uni_IMG_Dweb/MBA_Program_Dweb_Liverpool.webp"
+              alt="Liverpool Business School"
+            />
+            <div class="bestseller-tag">BESTSELLER</div>
+            <div class="card-body">
+              <p class="text-primary">Liverpool Business School</p>
+              <h5>MBA from Liverpool Business School</h5>
+              <p>Integrated with GenAI modules</p>
+              <p>
+                Master's Degree <br />
+                18 Months <br />
+                WES Recognized MBA degree
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-primary">View Program</button>
+              <button class="btn btn-primary">Syllabus</button>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for other cards -->
+      </div>
+    </div>
+    <div class="container-custom">
+      <h2>
+        Real Stories, <span style="color: #e83e8c">Incredible Journeys</span>
+      </h2>
+      <p>
+        Swipe to find learners like you, or speak to a career expert and get
+        started today.
+      </p>
+      <div class="stats">
+        <div class="stat-box d-flex">
+          <p>&leftarrow;</p>
+          <p>2023 - 2024</p>
+          <p>&rightarrow;</p>
+        </div>
+        <div class="main-boxes">
+          <div class="stat-boxes">
+            <h3>55000+</h3>
+            <p>Career Transitions</p>
+          </div>
+          <div class="stat-boxes">
+            <h3>80%+</h3>
+            <p>Program Completion Rate</p>
+          </div>
+          <div class="stat-boxes">
+            <h3>3000</h3>
+            <p>Companies Hired</p>
+          </div>
+        </div>
+      </div>
+      <div class="journey">
+        <div class="journey-box">
+          <p style="font-weight: bold">BEFORE</p>
+          <img
+            src="https://d2o2utebsixu4k.cloudfront.net/DwebLogo181X24_Johnson-Matthey181X24-69c03bc52710470cabba1ed4e1caf3de.svg"
+            alt="Before"
+          />
+          <p class="job-title">Technical Service Engineer</p>
+        </div>
+        <div class="middle-box">
+          <img src="images/success .jpg" alt="Before" />
+          <div class="hike">120% Hike</div>
+          <h3>Kushagra Saxena</h3>
+          <p>EPGP in Data Science from IIITB<br />2023</p>
+        </div>
+        <div class="journey-box">
+          <p style="font-weight: bold">AFTER</p>
+          <img
+            src="https://d2o2utebsixu4k.cloudfront.net/DwebLogo181X24_Johnson-Matthey181X24-69c03bc52710470cabba1ed4e1caf3de.svg"
+            alt="Before"
+          />
+          <p class="job-title">AI Solution Consultant</p>
+        </div>
+      </div>
+      <nav class="pagination-custom">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="talk-to-export">Talk To Career Expert</div>
+    <section id="ExpertServices" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-4">
+          <div class="col-md-8">
+            <h4 class="display-4">
+              <span class="gradient-text">Our Expert Services</span>
+              <span style="font-size: 40px; font-weight: 600"
+                >for your Career Goals</span
+              >
+            </h4>
+            <p class="lead text-secondary mt-3">
+              Learn on an AI-powered platform with high-quality content, live
+              sessions & mentoring from leading industry experts to achieve your
+              desired goal.
+            </p>
+          </div>
+        </div>
+        <div class="position-relative">
+          <div
+            class="bg-gradient position-absolute h-100 opacity-8 blur-lg"
+            style="z-index: -1; top: -20%; left: -30%"
+          ></div>
+          <div class="row justify-content-center mb-5">
+            <div class="col-auto text-center">
+              <div class="d-flex align-items-center gap-3 cursor-pointer">
+                <i
+                  class="icon-checkmark-circle-filled text-primary display-4"
+                ></i>
+                <span class="h4">Enrolment Assistance</span>
+              </div>
+            </div>
+            <div class="col-auto">
+              <hr class="w-50 mx-auto" />
+            </div>
+            <div class="col-auto text-center">
+              <div class="d-flex align-items-center gap-3 cursor-pointer">
+                <i class="icon-circle text-secondary display-4"></i>
+                <span class="h4">Course Completion</span>
+              </div>
+            </div>
+            <div class="col-auto">
+              <hr class="w-50 mx-auto" />
+            </div>
+            <div class="col-auto text-center">
+              <div class="d-flex align-items-center gap-3 cursor-pointer">
+                <i class="icon-circle text-secondary display-4"></i>
+                <span class="h4">Career Acceleration</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex flex-column align-items-center pb-5">
+                <img
+                  class="mb-4"
+                  src="https://d2o2utebsixu4k.cloudfront.net/HP Enrolment Assistance dWeb370 x 306_2_refresh-210bad3990c641b0a9902a376c9b6631.svg"
+                  alt="svg1"
+                  style="width: 370px; height: 306px"
+                />
+                <div class="row">
+                  <div class="col-md-4 text-center mb-4">
+                    <div
+                      class="border rounded-pill p-3 bg-gradient shadow-sm text-primary mb-2"
+                    >
+                      01
+                    </div>
+                    <h5>Career Counselling</h5>
+                    <p class="text-secondary">
+                      Speak to expert counsellors who will guide you towards the
+                      ideal program for your career aspirations
+                    </p>
+                  </div>
+                  <div class="col-md-4 text-center mb-4">
+                    <div
+                      class="border rounded-pill p-3 bg-gradient shadow-sm text-primary mb-2"
+                    >
+                      02
+                    </div>
+                    <h5>University Admission</h5>
+                    <p class="text-secondary">
+                      Get expert support every step of the way to ease the
+                      stress of the University's admission process
+                    </p>
+                  </div>
+                  <div class="col-md-4 text-center mb-4">
+                    <div
+                      class="border rounded-pill p-3 bg-gradient shadow-sm text-primary mb-2"
+                    >
+                      03
+                    </div>
+                    <h5>Flexible Payment Plans</h5>
+                    <p class="text-secondary">
+                      Say goodbye to hefty student loans. Get assistance in
+                      finding the best, personalised payment plans
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex flex-column align-items-center pb-5">
+                <img
+                  class="mb-4"
+                  src="https://d2o2utebsixu4k.cloudfront.net/HP%20Enrolment%20Assistance%20dWeb370%20x%20306_1-503ed058a3144ff68e41dc2ee95a1a3c.webp"
+                  alt="Course Completion"
+                  style="width: 370px; height: 306px"
+                />
+                <div class="row">
+                  <div class="col-md-4 text-center mb-4">
+                    <div
+                      class="border rounded-pill p-3 bg-gradient shadow-sm text-primary mb-2"
+                    >
+                      01
+                    </div>
+                    <h5>Designed for Professionals</h5>
+                    <p class="text-secondary">
+                      Course tailored for professionals with a balance of
+                      recorded & live sessions, case studies & assessments.
+                    </p>
+                  </div>
+                  <div class="col-md-4 text-center mb-4">
+                    <div
+                      class="border rounded-pill p-3 bg-gradient shadow-sm text-primary mb-2"
+                    >
+                      02
+                    </div>
+                    <h5>Hands-on Learning</h5>
+                    <p class="text-secondary">
+                      Expert-led, personalized sessions for conceptual clarity &
+                      a tailored action plan for your goals.
+                    </p>
+                  </div>
+                  <div class="col-md-4 text-center mb-4">
+                    <div
+                      class="border rounded-pill p-3 bg-gradient shadow-sm text-primary mb-2"
+                    >
+                      03
+                    </div>
+                    <h5>Real Time Support</h5>
+                    <p class="text-secondary">
+                      Instant support from AI-powered bots & your upGrad Buddy
+                      to resolve all your queries
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex flex-column align-items-center pb-5">
+                <img
+                  class="mb-4"
+                  src="https://d2o2utebsixu4k.cloudfront.net/HP%20Enrolment%20Assistance%20dWeb370%20x%20306_2-db55c3e42eef4bd7a52b8f982fdbf80c.webp"
+                  alt="Career Acceleration"
+                  style="width: 370px; height: 306px"
+                />
+                <div class="row">
+                  <div class="col-md-4 text-center mb-4">
+                    <div
+                      class="border rounded-pill p-3 bg-gradient shadow-sm text-primary mb-2"
+                    >
+                      01
+                    </div>
+                    <h5>Premium Job Openings</h5>
+                    <p class="text-secondary">
+                      Exclusive job openings from upGrad’s 1000+ hiring partners
+                    </p>
+                  </div>
+                  <div class="col-md-4 text-center mb-4">
+                    <div
+                      class="border rounded-pill p-3 bg-gradient shadow-sm text-primary mb-2"
+                    >
+                      02
+                    </div>
+                    <h5>Personalized Career Coaching</h5>
+                    <p class="text-secondary">
+                      Expert-led, personalized sessions for conceptual clarity &
+                      a tailored action plan for your goals.
+                    </p>
+                  </div>
+                  <div class="col-md-4 text-center mb-4">
+                    <div
+                      class="border rounded-pill p-3 bg-gradient shadow-sm text-primary mb-2"
+                    >
+                      03
+                    </div>
+                    <h5>Global Alumni Network</h5>
+                    <p class="text-secondary">
+                      Access to the upGrad alumni community with 25,000+
+                      successful professionals from across the world
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <div
+      class="flex flex-col justify-center items-center self-center text-center relative md:gap-0 xs:gap-spacing8"
+    >
+      <div
+        class="relative items-start justify-start flex-grow-0 flex-shrink-0 gap-spacing8"
+      >
+        <h2
+          class="font-medium text-heading2 -tracking-0.44 gap-spacing8 whitespace-break-spaces"
+        >
+          <span class="text-gradient">Reviews: A Testimony</span> to What We Do
+        </h2>
+      </div>
+      <p
+        class="flex-grow-0 flex-shrink-0 xs:text-bodySmall md:text-bodyLarge text-greyscale-2 font-450 xs:-tracking-0.14 md:-tracking-0.2 md:mt-spacing8 text-center xs:w-296px md:w-full"
+      >
+        See what our learners have to say about us
+      </p>
+    </div>
+    <div class="container slider-container justify-content-center">
+      <p class="arrow" id="prev">&leftarrow;</p>
+      <div class="image-wrapper">
+        <img
+          class="students-image"
+          src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2FAlumniManasi%20(1)-fc02b02a433847a787c4cfb3bfa3142e.webp&w=1920&q=75"
+        />
+        <img
+          class="students-image"
+          src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2FAlumniSonali%20(1)-01ccd42b50f840268a7d62e5e46e63a3.webp&w=1920&q=75"
+        />
+        <img
+          class="students-image"
+          src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2FAlumniUllas%20(1)-459931f8863e479ab2dd2de0f53a653d.webp&w=1920&q=75"
+        />
+        <img
+          class="students-image active"
+          src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2FAlumniNisarg%20(1)-22e5e345eac5475b955ff7af5e3d74f8.webp&w=1920&q=75"
+        />
+        <img
+          class="students-image"
+          src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2FAlumniAnshul%20(1)-b0ad47cffa2f4461a05082166e1d3869.webp&w=1920&q=75"
+        />
+        <img
+          class="students-image"
+          src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2FAlumniNisarg%20(1)-22e5e345eac5475b955ff7af5e3d74f8.webp&w=1920&q=75"
+        />
+        <img
+          class="students-image"
+          src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2FAlumniManasi%20(1)-fc02b02a433847a787c4cfb3bfa3142e.webp&w=1920&q=75"
+        />
+        <img
+          class="students-image"
+          src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2FAlumniSonali%20(1)-01ccd42b50f840268a7d62e5e46e63a3.webp&w=1920&q=75"
+        />
+      </div>
+      <p class="arrow" id="next">&rightarrow;</p>
+    </div>
+    <div style="margin-bottom: 3%"></div>
+    <div class="container d-flex justify-content-center">
+      <img
+        class="success-stories"
+        src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2FAlumniAnshul%20(1)-b0ad47cffa2f4461a05082166e1d3869.webp&w=1920&q=75"
+      />
+      <ul
+        class="d-flex flex-column justify-content-start align-items-start flex-grow-0 flex-shrink-0 gap-2"
+      >
+        <h4>
+          Anshul <br />
+          <a href="/">Linkidin</a> &nbsp;<a href="/"
+            ><img
+              src="https://www.upgrad.com/_ww3-next/_next/static/media/LinkedinSmall.e95d7ba7.svg"
+          /></a>
+        </h4>
+        <li
+          class="d-inline-flex gap-2 align-items-center text-body font-weight-450"
+        >
+          <b class="font-bodySmall font-weight-450"
+            >Product Development Manager</b
+          >
+        </li>
+        <li
+          class="d-inline-flex gap-2 align-items-center text-body font-weight-450"
+        >
+          <b class="font-bodySmall font-weight-450">Comviva</b>
+        </li>
+        <li
+          class="d-inline-flex gap-2 align-items-center text-body font-weight-450"
+        >
+          <b class="font-bodySmall font-weight-450">KH Bootcamp</b>
+        </li>
+        <li
+          class="d-inline-flex gap-2 align-items-center text-body font-weight-450"
+        >
+          <b class="font-bodySmall font-weight-450"> 2022</b>
+        </li>
+      </ul>
+      <div
+        class="Anshul-card flex-column justify-content-center align-items-start flex-grow-0 flex-shrink-0 md-w-456 md-h-256 xs- gap-3 px-3 py-2 md-px-4 md-py-3 rounded bg-white shadow-lg"
+      >
+        <div
+          class="d-flex flex-column justify-content-start align-items-start flex-grow-0 flex-shrink-0 position-relative gap-1 md-gap-3"
+        >
+          <i
+            class="icon-quote text-primary mb-2 md-mb-0 xs-text-icon-md md-text-icon-lg"
+          ></i>
+          <p
+            class="flex-grow-0 flex-shrink-0 text-body-small md-text-title2 font-medium text-left tracking-0 md-tracking-0.2 line-clamp-2"
+          >
+            Mechanical Engineer to MERN Stack Maven
+          </p>
+          <p
+            class="flex-grow-0 flex-shrink-0 text-caption-normal md-text-body-small font-weight-medium text-left text-secondary tracking-0 md-tracking-0.2"
+            style="font-size: 1rem; color: rgb(25, 23, 36); font-weight: 600"
+          >
+            "I'm Dnyanesh Mali, and I come from a middle-class<br />
+            household. My parents are teachers, and they have<br />
+            helped me earn my engineering degree. In 2021, I g…"<br />
+          </p>
+        </div>
+        <button
+          class="btn d-flex justify-content-center align-items-center gap-2 text-danger font-bold p-0 hover-text-primary-light md-h-6 xs-h-16 xs-tracking-0.14"
+        >
+          Read Full Story
+        </button>
+      </div>
+    </div>
+    <div class="container mx-auto max-w-1440 px-3 my-5 md:px-5 py-5">
+      <div class="d-flex flex-column align-items-center gap-3">
+        <h3 class="text-center font-weight-medium mb-4">Our Top Recruiters</h3>
+        <div class="py-2">
+          <div class="position-relative mx-auto logo-slider-container">
+            <div
+              class="position-absolute top-0 start-0 h-spacing36 w-70px bg-gradient-left"
+            ></div>
+            <div class="position-relative overflow-hidden">
+              <div class="loop-slider2 py-5">
+                <div class="inner" style="animation-duration: 22s !important">
+                  <div class="d-inline-block me-3">
+                    <img
+                      alt="Amazon"
+                      loading="lazy"
+                      width="40"
+                      height="40"
+                      class="w-auto h-full"
+                      src="https://d2o2utebsixu4k.cloudfront.net/HP_Top Hiring Partners_Amazon_dWeb-ef0e5fcdb50c4c76b6a2df2ce3568518.svg"
+                      style="color: transparent"
+                    />
+                  </div>
+                  <div class="d-inline-block me-3">
+                    <img
+                      alt="Jio"
+                      loading="lazy"
+                      width="40"
+                      height="40"
+                      class="w-auto h-full"
+                      src="https://d2o2utebsixu4k.cloudfront.net/HP_Top Hiring Partners_Jio_dWeb-7eeb04f8a5764a829fcadddfe6a33e7d.svg"
+                      style="color: transparent"
+                    />
+                  </div>
+                  <div class="d-inline-block me-3">
+                    <img
+                      alt="ESPN"
+                      loading="lazy"
+                      width="40"
+                      height="40"
+                      class="w-auto h-full"
+                      src="https://d2o2utebsixu4k.cloudfront.net/HP_Top Hiring Partners_ESPN_dWeb-b610bab663ab4dcfac6587e5a1aea2ac.svg"
+                      style="color: transparent"
+                    />
+                  </div>
+                  <div class="d-inline-block me-3">
+                    <img
+                      alt="Microsoft"
+                      loading="lazy"
+                      width="40"
+                      height="40"
+                      class="w-auto h-full"
+                      src="https://d2o2utebsixu4k.cloudfront.net/HP_Top Hiring Partners_Microsoft_dWeb-d14d569d169c4499b6cdbaddb286662f.svg"
+                      style="color: transparent"
+                    />
+                  </div>
+                  <div class="d-inline-block me-3">
+                    <img
+                      alt="Flipkart"
+                      loading="lazy"
+                      width="40"
+                      height="40"
+                      class="w-auto h-full"
+                      src="https://d2o2utebsixu4k.cloudfront.net/HP_Top Hiring Partners_Flipkart_dWeb-4a6a83fe7ba64a0b9a0ac06f5586b232.svg"
+                      style="color: transparent"
+                    />
+                  </div>
+                  <div class="d-inline-block me-3">
+                    <img
+                      alt="Accenture"
+                      loading="lazy"
+                      width="40"
+                      height="40"
+                      class="w-auto h-full"
+                      src="https://d2o2utebsixu4k.cloudfront.net/HP_Top Hiring Partners_Accenture_dWeb-f8dc683ca4b0428ea580b85d1df80e45.svg"
+                      style="color: transparent"
+                    />
+                  </div>
+                  <div class="d-inline-block me-3">
+                    <img
+                      alt="Ola"
+                      loading="lazy"
+                      width="40"
+                      height="40"
+                      class="w-auto h-full"
+                      src="https://d2o2utebsixu4k.cloudfront.net/HP_Top Hiring Partners_OLA_dWeb-fd48394322e5495497b4b75f009f2c2e.svg"
+                      style="color: transparent"
+                    />
+                  </div>
+                  <div class="d-inline-block me-3">
+                    <img
+                      alt="Myntra"
+                      loading="lazy"
+                      width="40"
+                      height="40"
+                      class="w-auto h-full"
+                      src="https://d2o2utebsixu4k.cloudfront.net/HP_Top Hiring Partners_Myntra_dWeb-37de69cc8b2544bcb63a5e20e0316ed5.svg"
+                      style="color: transparent"
+                    />
+                  </div>
+                  <div class="d-inline-block me-3">
+                    <img
+                      alt="Visa"
+                      loading="lazy"
+                      width="40"
+                      height="40"
+                      class="w-auto h-full"
+                      src="https://d2o2utebsixu4k.cloudfront.net/HP_Top Hiring Partners_VISA_dWeb-8fe93b48b2374179924b1b02473d6b04.svg"
+                      style="color: transparent"
+                    />
+                  </div>
+                  <!-- Repeat the same divs for other logos as needed -->
+                </div>
+              </div>
+            </div>
+            <div
+              class="position-absolute top-0 end-0 h-spacing36 w-70px bg-gradient-right"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="">
+      <div class="container my-5">
+        <div class="text-center mb-4">
+          <h2 class="fw-medium fs-2">
+            Attend Free <span class="gradient-text">Live Masterclasses</span>
+          </h2>
+          <p class="text-muted fs-5">
+            Whether you’re looking to break into a new industry or want to stay
+            updated with the<br />
+            latest in your industry - gain insights from experts with a wealth
+            of experience in top<br />
+            companies.
+          </p>
+        </div>
+        <div class="carousel-wrapper mb-4">
+          <div
+            id="masterclassCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item2 active">
+                <div class="card border-0 shadow-card rounded-2xl">
+                  <div
+                    class="position-relative overflow-hidden rounded-top-2xl"
+                  >
+                    <img
+                      src="https://d2o2utebsixu4k.cloudfront.net/6th%20June%20DBA%20DL-e1cd558d6f8c416d808afed9d9c1b761.webp"
+                      class="card-img-top"
+                      alt="Dr. Pramath Sinha"
+                    />
+                    <div
+                      class="bg-gradient-card-2 position-absolute bottom-0 start-0 w-100 p-3"
+                    >
+                      <p class="badge bg-light text-dark">Speaker</p>
+                      <h5 class="text-white">Dr. Pramath Sinha</h5>
+                      <p class="text-white">Founding Dean - ISB</p>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title line-clamp-2">
+                      Owning the Digital Wave: Leadership Strategies for
+                      Evolving Businesses
+                    </h5>
+                    <div class="d-flex align-items-center mb-2">
+                      <i class="icon-calendar text-primary"></i>
+                      <p class="mb-0">06-Jun-2024</p>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                      <i class="icon-clock text-primary"></i>
+                      <p class="mb-0">07:30 PM</p>
+                    </div>
+                    <a
+                      href="https://events.upgrad.com/6th_june_dba_dl_?utm_source=organic&amp;utm_medium=websiteorganic&amp;utm_campaign=organic&amp;utm_term=organic_Growthmasterclass&amp;utm_content=organic"
+                      class="btn btn-primary w-100 shadow-cta"
+                      >Register Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <a
+            href="https://www.upgrad.com/free-masterclass/"
+            class="btn btn-dark py-3 text-white"
+            >View All Masterclasses</a
+          >
+        </div>
+      </div>
+    </section>
+    <div class="container py-5">
+      <h2>
+        <span class="gradient-text">Screenshots: Straight From the Heart </span>
+      </h2>
+      <p style="color: rgb(49, 45, 45); font-size: 21px">
+        Click to read direct messages and conversations with learners
+      </p>
+
+      <div class="slider-image py-5">
+        <span class="arrow" id="prev">&leftarrow;</span>
+        <img
+          src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2Fwhatsapp%20Thumbnail_Nilesh%20Lade-87830baa8fea49578d17e46fc8c9bd40.webp&w=1920&q=75"
+          alt="slider-2"
+        />
+        <img
+          src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2FKirti_Rao_1-b371f43fb7384346ae39f3b2f06ad4c7.jpg&w=1920&q=75"
+          alt="slider-2"
+        />
+        <img
+          src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2FMosmi_1-7d303c5fe739402893294c0c4e9566c7.jpg&w=1920&q=75"
+          alt="slider-2"
+        />
+        <img
+          src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2Fwhatsapp%20Thumbnail_Nilesh%20Lade-87830baa8fea49578d17e46fc8c9bd40.webp&w=1920&q=75"
+          alt="slider-2"
+        />
+        <img
+          src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2Fwhatsapp_Swaraj%20dweb-a0a652a9220144bd8c97fc7f1418f5fa.webp&w=1920&q=75"
+          alt="slider-2"
+        />
+        <img
+          src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2FAnshuman_1-f4662cf444ca4dc5aaaad950abf63771.jpg&w=1920&q=75"
+          alt="slider-2"
+        />
+        <img
+          src="https://www.upgrad.com/_ww3-next/image/?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2FSahil%20Chakote_Dweb-7bb459604d9d4b2d8acd80e58765ba6f.webp&w=1920&q=75"
+          alt="slider-2"
+        />
+        <span class="arrow" id="next">&rightarrow;</span>
+      </div>
+      <div class="flot-tittle">
+        <div class="d-flex flex-column position-relative w-368">
+          <img
+            alt="mobile layout"
+            loading="lazy"
+            width="289"
+            height="397"
+            decoding="async"
+            class="z-2 mx-auto position-relative w-288px"
+            src="https://www.upgrad.com/_ww3-next/_next/static/media/mobile-border.3e6143fd.svg"
+            style="color: transparent"
+          />
+          <div
+            class="position-absolute w-258px h-380px"
+            style="left: 53px; top: 4px"
+          >
+            <img
+              class="chat-image"
+              alt="testimonial"
+              loading="lazy"
+              decoding="async"
+              src="https://d2o2utebsixu4k.cloudfront.net/HP_WA_Screenshot_Nilesh%20Lade_dweb-065a811befdd49fba903c21cfad8788f.svg"
+            />
+          </div>
+          <div class="w-100 image-bottom-gradient" style="height: 1px"></div>
+        </div>
+      </div>
+    </div>
+    <section id="Awards & Accomplishments" class="my-5">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-8">
+          <h2 class="font-weight-medium">
+            Start with our &amp; <span class="gradient-text">Free Courses</span>
+          </h2>
+          <p class="mt-3 text-muted">
+            Earn certifications by upskilling with 750+ Hours of learning
+            content taught by academic and industry experts
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="container slider-list py-5">
+      <div class="slide2">
+        <div class="card card-customs bg-light border">
+          <div class="img-container">
+            <img
+              src="https://d2o2utebsixu4k.cloudfront.net/Chat%20GPT%20Gen%20AI-04799065ce6e4b16ac1069aa0c42b527.png"
+              alt="ChatGPT"
+            />
+            <div class="tag2">Free Certificate</div>
+          </div>
+          <div class="card-bodys">
+            <div>
+              <h6 class="card-titles">Gen AI &amp; ChatGPT</h6>
+              <p class="card-texts">
+                Develop a fundamental understanding of deep learning and natural
+                language processing. Learn to leverage Large Language Models to
+                your advantage.
+              </p>
+            </div>
+            <div class="card-footers">
+              <i class="icon-book-open"></i>
+              <p>7 Courses</p>
+            </div>
+            <a
+              href="https://www.upgrad.com/chatgpt-and-ai-free-courses/"
+              target="_blank"
+              class="cta-button"
+              >Explore Courses</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="slide2">
+        <div class="card card-customs bg-light border">
+          <div class="img-container">
+            <img
+              src="https://d2o2utebsixu4k.cloudfront.net/Marketing-bf9e340625b145049fb9e526f6ca1185.png"
+              alt="Digital Marketing"
+            />
+            <div class="tag2">Free Certificate</div>
+          </div>
+          <div class="card-bodys">
+            <div>
+              <h6 class="card-titles">Digital Marketing</h6>
+              <p class="card-texts">
+                Learn to build brands and sell products through Influencer and
+                Social Media Marketing, SEO, PR, Email Marketing and more.
+              </p>
+            </div>
+            <div class="card-footers">
+              <i class="icon-book-open"></i>
+              <p>15 Courses</p>
+            </div>
+            <a
+              href="https://www.upgrad.com/digital-marketing-free-course/"
+              target="_blank"
+              class="cta-button"
+              >Explore Courses</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="slide2">
+        <div class="card card-customs bg-light border">
+          <div class="img-container">
+            <img
+              src="https://d2o2utebsixu4k.cloudfront.net/DS-%26-ML-bb47b08a520648ce8d703d1c8cad3288.png"
+              alt="Data Science & Machine Learning"
+            />
+            <div class="tag2">Free Certificate</div>
+          </div>
+          <div class="card-bodys">
+            <div>
+              <h6 class="card-titles">Data Science &amp; Machine Learning</h6>
+              <p class="card-texts">
+                Learn how to leverage Excel, Tableau &amp; MySQL. Conduct actual
+                data analysis as you get ready to dive into the world of Data
+                Science.
+              </p>
+            </div>
+            <div class="card-footers">
+              <i class="icon-book-open"></i>
+              <p>20 Courses</p>
+            </div>
+            <a
+              href="https://www.upgrad.com/data-science-free-course/"
+              target="_blank"
+              class="cta-button"
+              >Explore Courses</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="slide2">
+        <div class="card card-customs bg-light border">
+          <div class="img-container">
+            <img
+              src="https://d2o2utebsixu4k.cloudfront.net/Management-94eb19d06cd74999a7e812f88a8ffc20.png"
+              alt="Management"
+            />
+            <div class="tag2">Free Certificate</div>
+          </div>
+          <div class="card-bodys">
+            <div>
+              <h6 class="card-titles">Management</h6>
+              <p class="card-texts">
+                Learn essential management skills and strategies to enhance your
+                leadership capabilities in various business environments.
+              </p>
+            </div>
+            <div class="card-footers">
+              <i class="icon-book-open"></i>
+              <p>10 Courses</p>
+            </div>
+            <a
+              href="https://www.upgrad.com/management-free-course/"
+              target="_blank"
+              class="cta-button"
+              >Explore Courses</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="Awards & Accomplishments" class="my-5">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-8">
+          <h2 class="font-weight-medium">
+            Awards &amp; <span class="gradient-text">Accomplishments</span>
+          </h2>
+          <p class="mt-3 text-muted">
+            As India’s largest higher education company, we have been honoured
+            with several awards.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="row mt-5 position-relative">
+      <div class="left-gradient position-absolute"></div>
+      <div class="col-12 overflow-hidden">
+        <div class="loop-slider2 py-5">
+          <div class="inner d-flex" style="animation-duration: 22s !important">
+            <div class="award-item text-center col-2">
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/YT-26d62ae20ba94b8ba3afc49e33570e2a.svg"
+                class="img-fluilds"
+                alt="YouTube Works Award 2023"
+                width="80"
+                height="80"
+              />
+              <p class="text-uppercase mt-2 text-dark-purple-main">
+                YouTube India
+              </p>
+              <h5 class="text-center">YouTube Works Award 2023</h5>
+              <p class="text-muted">
+                upGrad wins BW Top Education Award 2023 in Best E-Learning
+                Company
+              </p>
+            </div>
+            <div class="award-item text-center col-2">
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/BW_Awards-1ab3184f090e4bfa97f69d29e25c65c9.svg"
+                alt="BW Top Education Award 2023"
+                class="img-fluilds mb-2"
+                style="width: 100px"
+                width="80"
+                height="80"
+              />
+              <h5 class="text-uppercase">BW Top Education Award 2023</h5>
+              <h6 class="text-center">EdTech of the Year</h6>
+              <p class="text-center">
+                upGrad wins BW Top Education<br />
+                Award 2023 in Best E-Learning Company
+              </p>
+            </div>
+            <div class="award-item text-center col-2">
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/FT-374dd3647d7c489da1531a62c9735476.svg"
+                class="img-fluilds"
+                alt="FT/IFC Award"
+                width="80"
+                height="80"
+              />
+              <p class="text-uppercase mt-2 text-dark-purple-main text-center">
+                FT/IFC Transformational<br />
+                Business Conference and Awards
+              </p>
+              <h5>Special Commendation</h5>
+              <p class="text-muted">
+                upGrad wins BW Top Education Award 2023 in Best E-Learning
+                Company
+              </p>
+            </div>
+
+            <div class="award-item text-center col-2">
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/ET-505fb679526c4beebed5fece1ceea79d.svg"
+                class="img-fluilds"
+                alt="FT/IFC Award"
+                width="80"
+                height="80"
+              />
+              <p class="text-uppercase mt-2 text-dark-purple-main text-center">
+                FT/IFC Transformational<br />
+                Business Conference and Awards
+              </p>
+              <h5>Special Commendation</h5>
+              <p class="text-muted">
+                upGrad wins BW Top Education Award 2023 in Best E-Learning
+                Company
+              </p>
+            </div>
+
+            <!-- Award 2 -->
+            <div class="award-item text-center col-2">
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/BHGroup-4fc3ba459d764fea9f9c601df0978bac.svg"
+                class="img-fluilds"
+                alt="FT/IFC Award"
+                width="80"
+                height="80"
+              />
+              <p class="text-uppercase mt-2 text-dark-purple-main text-center">
+                FT/IFC Transformational<br />
+                Business Conference and Awards
+              </p>
+              <h5>Special Commendation</h5>
+              <p class="text-muted">
+                upGrad wins BW Top Education Award 2023 in Best E-Learning
+                Company
+              </p>
+            </div>
+
+            <!-- Award 2 -->
+            <div class="award-item text-center col-2">
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/Hurun_Burgundy_Private-161ffe21c3a04137977e16b9a867861d.svg"
+                class="img-fluilds"
+                alt="FT/IFC Award"
+                width="80"
+                height="80"
+              />
+              <p class="text-uppercase mt-2 text-dark-purple-main text-center">
+                FT/IFC Transformational<br />
+                Business Conference and Awards
+              </p>
+              <h5>Special Commendation</h5>
+              <p class="text-muted text-center">
+                uG’s DS Program wins 'Special Commendation' by FT/IFC Awards
+              </p>
+            </div>
+
+            <!-- Award 2 -->
+            <div class="award-item text-center col-2">
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/BW_Awards-1ab3184f090e4bfa97f69d29e25c65c9.svg"
+                class="img-fluilds"
+                alt="FT/IFC Award"
+                width="80"
+                height="80"
+              />
+              <p class="text-uppercase mt-2 text-dark-purple-main text-center">
+                FT/IFC Transformational<br />
+                Business Conference and Awards
+              </p>
+              <h5>Special Commendation</h5>
+              <p class="text-muted">
+                upGrad wins BW Top Education Award 2023 in Best E-Learning
+                Company
+              </p>
+            </div>
+
+            <!-- Award 2 -->
+            <div class="award-item text-center col-2">
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/FT-374dd3647d7c489da1531a62c9735476.svg"
+                class="img-fluilds"
+                alt="FT/IFC Award"
+                width="80"
+                height="80"
+              />
+              <p class="text-uppercase mt-2 text-dark-purple-main text-center">
+                FT/IFC Transformational<br />
+                Business Conference and Awards
+              </p>
+              <h5>Special Commendation</h5>
+              <p class="text-muted">
+                upGrad wins BW Top Education Award 2023 in Best E-Learning
+                Company
+              </p>
+            </div>
+
+            <!-- Award 2 -->
+            <div class="award-item text-center col-2">
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/MD2-7046d4668af24476a2b15c30aae126e1.svg"
+                class="img-fluilds"
+                alt="FT/IFC Award"
+                width="80"
+                height="80"
+              />
+              <p class="text-uppercase mt-2 text-dark-purple-main">
+                FT/IFC Transformational<br />
+                Business Conference and Awards
+              </p>
+              <h5>Special Commendation</h5>
+              <p class="text-muted">
+                upGrad wins BW Top Education Award 2023 in Best E-Learning
+                Company
+              </p>
+            </div>
+
+            <!-- Award 2 -->
+            <div class="award-item text-center col-2">
+              <img
+                src="https://d2o2utebsixu4k.cloudfront.net/Untitled%20design-7ea35b59dce14e698f4080165ff90bd1.svg"
+                class="img-fluilds"
+                alt="FT/IFC Award"
+                width="80"
+                height="80"
+              />
+              <p class="text-uppercase mt-2 text-dark-purple-main">
+                FT/IFC Transformational<br />
+                Business Conference and Awards
+              </p>
+              <h5>Special Commendation</h5>
+              <p class="text-muted">
+                upGrad wins BW Top Education Award 2023 in Best E-Learning
+                Company
+              </p>
+            </div>
+
+            <!-- Add more awards as needed -->
+          </div>
+        </div>
+      </div>
+      <div class="right-gradient position-absolute"></div>
+    </div>
+    <section id="">
+      <div class="container my-5">
+        <div class="text-center">
+          <h2 class="font-weight-medium">
+            upGrad <span class="gradient-text">in the News</span>
+          </h2>
+          <p class="text-secondary">
+            Sometimes we make the headlines, sometimes our learners do.
+          </p>
+        </div>
+
+        <div class="d-flexs py-5">
+          <div class="slideses slide-current slide-visible">
+            <a
+              href="https://brandequity.economictimes.indiatimes.com/news/advertising/upgrad-says-get-onto-the-bus-of-opportunity-powered-by-ai-in-new-ad/102797600"
+              target="_blank"
+              rel="nofollow"
+              class="card d-flex flex-column p-4 gap-4 w-100 rounded-3 border border-secondary shadow-sm align-items-center text-decoration-none text-dark"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center p-3 rounded-top w-100"
+                style="background-color: #fbdfee"
+              >
+                <img
+                  alt="Economic Times"
+                  loading="lazy"
+                  width="100"
+                  height="30"
+                  class="h-30px w-auto"
+                  src="https://d2o2utebsixu4k.cloudfront.net/HP_upGrad_Media_Economic Times_dWeb-29ce0fca7c434ed9865c8a548c445c71.svg"
+                  draggable="false"
+                  style="color: transparent"
+                />
+              </div>
+              <div class="p-3 h-100">
+                <div class="d-flex flex-column gap-2">
+                  <h5 class="text-truncate-3 h-100">
+                    upGrad's 'Bus of Opportunity' Campaign is encouraging India
+                    Inc. to upskill with 25+ GenAI Courses
+                  </h5>
+                  <span class="text-muted">Aug 17, 2023</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="slideses slide-current slide-visible">
+            <a
+              href="https://brandequity.economictimes.indiatimes.com/news/advertising/upgrad-says-get-onto-the-bus-of-opportunity-powered-by-ai-in-new-ad/102797600"
+              target="_blank"
+              rel="nofollow"
+              class="card d-flex flex-column p-4 gap-4 w-100 rounded-3 border border-secondary shadow-sm align-items-center text-decoration-none text-dark"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center p-3 rounded-top w-100"
+                style="background-color: #fbdfee"
+              >
+                <img
+                  alt="Economic Times"
+                  loading="lazy"
+                  width="100"
+                  height="30"
+                  class="h-30px w-auto"
+                  src="https://d2o2utebsixu4k.cloudfront.net/HP_upGrad_Media_Economic Times_dWeb-29ce0fca7c434ed9865c8a548c445c71.svg"
+                  draggable="false"
+                  style="color: transparent"
+                />
+              </div>
+              <div class="p-3 h-100">
+                <div class="d-flex flex-column gap-2">
+                  <h5 class="text-truncate-3 h-100">
+                    upGrad's 'Bus of Opportunity' Campaign is encouraging India
+                    Inc. to upskill with 25+ GenAI Courses
+                  </h5>
+                  <span class="text-muted">Aug 17, 2023</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="slideses slide-current slide-visible">
+            <a
+              href="https://brandequity.economictimes.indiatimes.com/news/advertising/upgrad-says-get-onto-the-bus-of-opportunity-powered-by-ai-in-new-ad/102797600"
+              target="_blank"
+              rel="nofollow"
+              class="card d-flex flex-column p-4 gap-4 w-100 rounded-3 border border-secondary shadow-sm align-items-center text-decoration-none text-dark"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center p-3 rounded-top w-100"
+                style="background-color: #fbdfee"
+              >
+                <img
+                  alt="Economic Times"
+                  loading="lazy"
+                  width="100"
+                  height="30"
+                  class="h-30px w-auto"
+                  src="https://d2o2utebsixu4k.cloudfront.net/HP_upGrad_Media_Economic Times_dWeb-29ce0fca7c434ed9865c8a548c445c71.svg"
+                  draggable="false"
+                  style="color: transparent"
+                />
+              </div>
+              <div class="p-3 h-100">
+                <div class="d-flex flex-column gap-2">
+                  <h5 class="text-truncate-3 h-100">
+                    upGrad's 'Bus of Opportunity' Campaign is encouraging India
+                    Inc. to upskill with 25+ GenAI Courses
+                  </h5>
+                  <span class="text-muted">Aug 17, 2023</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container w-full mx-auto px-3 my-5">
+      <div
+        class="d-flex flex-column justify-content-start align-items-start position-relative gap-3"
+      >
+        <div class="d-flex flex-column gap-3">
+          <h3 class="font-weight-medium display-4 m-0">
+            upGrad <span class="gradient-text">Learner Support</span>
+          </h3>
+        </div>
+        <p class="text-muted font-weight-bold mt-3">
+          Talk to our experts. We’re available 24/7.
+        </p>
+      </div>
+      <div class="d-flex flex-column flex-md-row gap-5 pt-5">
+        <div class="d-flex flex-column flex-md-row gap-3 align-items-center">
+          <div class="d-flex gap-3 align-items-center">
+            <img
+              alt="Indian Nationals"
+              src="https://d2o2utebsixu4k.cloudfront.net/india1-390dca1223e54a018a1a1c918a5b28b1.png"
+              width="32"
+              height="32"
+            />
+            <p class="h5 m-0">Indian Nationals</p>
+          </div>
+          <div
+            class="d-flex align-items-center gap-2 rounded-128 py-2 px-3 border border-primary shadow-hard-highlighted min-w-236px"
+          >
+            <i class="icon-Phone text-primary h4 m-0"></i>
+            <p class="h4 font-weight-medium m-0 whitespace-nowrap">
+              1800 210 2020
+            </p>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row gap-3 align-items-center">
+          <div class="d-flex gap-3 align-items-center">
+            <img
+              alt="Foreign Nationals"
+              src="https://d2o2utebsixu4k.cloudfront.net/other-4331459231704220a347793ecb11a642.png"
+              width="32"
+              height="32"
+            />
+            <p class="h5 m-0">Foreign Nationals</p>
+          </div>
+          <div
+            class="d-flex align-items-center gap-2 rounded-128 py-2 px-3 border border-primary shadow-hard-highlighted min-w-236px"
+          >
+            <i class="icon-Phone text-primary h4 m-0"></i>
+            <p class="h4 font-weight-medium m-0 whitespace-nowrap">
+              +918045604032
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5 px-3 px-md-5">
+      <div
+        class="d-flex flex-column text-md-left align-items-center align-items-md-start"
+      >
+        <div
+          class="d-flex flex-column justify-content-start align-items-center align-items-md-start"
+        >
+          <div class="d-flex align-items-start justify-content-start">
+            <h2 class="font-weight-medium h2 mb-md-0">Disclaimer</h2>
+          </div>
+        </div>
+        <div class="text-muted pt-3 pt-md-4">
+          <span class="d-none">
+            <p>
+              <span style="color: #0c0c0c"
+                >upGrad does not grant credit; credits are granted, accepted or
+                transferred at the sole discretion of the relevant educational
+                institution offering the diploma or degree. We advise you to
+                enquire further regarding the suitability of this program for
+                your academic, professional requirements and job prospects
+                before enrolling. upGrad does not make any representations
+                regarding the recognition or equivalence of the credits or
+                credentials awarded, unless otherwise expressly stated. Success
+                depends on individual qualifications, experience, and efforts in
+                seeking employment.</span
+              >
+            </p>
+          </span>
+          <span>
+            <p>
+              <span style="color: #0c0c0c" id="readmore"
+                >upGrad does not grant credit; credits are granted, accepted or
+                transferred at the sole discretion of the relevant educational
+                institution offering the diploma or degree. We advise you to
+                enquire further regarding the suitability of this program for
+                your academic, professional requirements and job prospects
+                before enrolling. upGrad does not make any representations
+                regarding the recognition or equivalence of the credits or
+                credentials awarded, unless otherwise expressly stated. Success
+                depends on individual qualifications, experience, and efforts in
+                seeking employment.</span
+              >
+            </p>
+          </span>
+        </div>
+        <button
+          id="readmore-btn"
+          class="btn btn-link text-danger text-primary font-weight-medium px-0 pt-3 text-decoration-none align-items-start"
+        >
+          Read More
+        </button>
+      </div>
+    </div>
+
+    <footer
+      class="bg-dark px-4 py-5 text-white d-flex w-100 mt-4 pb-5"
+    >
+    <footer class="bg-dark px-4 py-5 text-white d-flex w-100 mt-4 pb-5">
+      <div class="border-bottom pb-3 pb-md-1 d-flex flex-column flex-md-row gap-3 gap-md-0">
+        <div>
+          <section>
+            <a href="/">
+              <div class="position-relative text-left" style="width: 154px; height: 56px">
+                <img
+                  alt="upgrad-logo"
+                  loading="lazy"
+                  decoding="async"
+                  class="position-absolute w-100 h-100"
+                  src="https://www.upgrad.com/_ww3-next/_next/static/media/upGrad-logo.6366986e.svg"
+                  style="inset: 0; color: transparent"
+                />
+              </div>
+            </a>
+            <div class="pt-3 pt-md-2 font-weight-normal" style="letter-spacing: -0.14px">
+              Building Careers of Tomorrow
+            </div>
+          </section>
+          <section>
+            <ul class="d-flex pt-3 pt-md-1 gap-3 list-unstyled">
+              <li>
+                <a target="_blank" rel="nofollow" href="https://www.facebook.com/UpGradGlobal">
+                  <img
+                    alt="facebook"
+                    loading="lazy"
+                    width="32"
+                    height="32"
+                    decoding="async"
+                    class="w-8 h-8"
+                    src="https://www.upgrad.com/_ww3-next/_next/static/media/fb-icon.9a9c3a8a.svg"
+                    style="color: transparent"
+                  />
+                </a>
+              </li>
+              <li>
+                <a target="_blank" rel="nofollow" href="https://twitter.com/UpGrad_Edu">
+                  <img
+                    alt="twitter"
+                    loading="lazy"
+                    width="29"
+                    height="28"
+                    decoding="async"
+                    class="w-8 h-8"
+                    src="https://www.upgrad.com/_ww3-next/_next/static/media/twitter-icon.d6ae04eb.svg"
+                    style="color: transparent"
+                  />
+                </a>
+              </li>
+              <li>
+                <a target="_blank" rel="nofollow" href="https://www.linkedin.com/company/ueducation">
+                  <img
+                    alt="linkedin"
+                    loading="lazy"
+                    width="32"
+                    height="32"
+                    decoding="async"
+                    class="w-8 h-8"
+                    src="https://www.upgrad.com/_ww3-next/_next/static/media/linkedin-icon.27f5ae63.svg"
+                    style="color: transparent"
+                  />
+                </a>
+              </li>
+              <li>
+                <a target="_blank" rel="nofollow" href="https://www.youtube.com/channel/UCO3pT4ZI8x2RVqYWxxcrZsw">
+                  <img
+                    alt="youtube"
+                    loading="lazy"
+                    width="32"
+                    height="32"
+                    decoding="async"
+                    class="w-8 h-8"
+                    src="https://www.upgrad.com/_ww3-next/_next/static/media/YouTube.32a2da57.svg"
+                    style="color: transparent"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="d-flex flex-column gap-3">
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.upgrad.student&amp;hl=en_GB">
+            <button class="btn btn-outline-light d-flex align-items-center justify-content-center gap-2 w-100">
+              <i class="icon-android"></i> GET THE ANDROID APP
+            </button>
+          </a>
+          <a target="_blank" href="https://apps.apple.com/in/app/upgrad/id1191301447">
+            <button class="btn btn-outline-light d-flex align-items-center justify-content-center gap-2 w-100">
+              <i class="icon-ios"></i> GET THE IOS APP
+            </button>
+          </a>
+        </div>
+        <div class="d-flex flex-column gap-3">
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.upgrad.student&amp;hl=en_GB">
+            <button class="btn btn-outline-light d-flex align-items-center justify-content-center gap-2 w-100">
+              <i class="icon-android"></i> GET THE ANDROID APP
+            </button>
+          </a>
+          <a target="_blank" href="https://apps.apple.com/in/app/upgrad/id1191301447">
+            <button class="btn btn-outline-light d-flex align-items-center justify-content-center gap-2 w-100">
+              <i class="icon-ios"></i> GET THE IOS APP
+            </button>
+          </a>
+        </div>        <div class="d-flex flex-column gap-3">
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.upgrad.student&amp;hl=en_GB">
+            <button class="btn btn-outline-light d-flex align-items-center justify-content-center gap-2 w-100">
+              <i class="icon-android"></i> GET THE ANDROID APP
+            </button>
+          </a>
+          <a target="_blank" href="https://apps.apple.com/in/app/upgrad/id1191301447">
+            <button class="btn btn-outline-light d-flex align-items-center justify-content-center gap-2 w-100">
+              <i class="icon-ios"></i> GET THE IOS APP
+            </button>
+          </a>
+        </div>        <div class="d-flex flex-column gap-3">
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.upgrad.student&amp;hl=en_GB">
+            <button class="btn btn-outline-light d-flex align-items-center justify-content-center gap-2 w-100">
+              <i class="icon-android"></i> GET THE ANDROID APP
+            </button>
+          </a>
+          <a target="_blank" href="https://apps.apple.com/in/app/upgrad/id1191301447">
+            <button class="btn btn-outline-light d-flex align-items-center justify-content-center gap-2 w-100">
+              <i class="icon-ios"></i> GET THE IOS APP
+            </button>
+          </a>
+        </div>        <div class="d-flex flex-column gap-3">
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.upgrad.student&amp;hl=en_GB">
+            <button class="btn btn-outline-light d-flex align-items-center justify-content-center gap-2 w-100">
+              <i class="icon-android"></i> GET THE ANDROID APP
+            </button>
+          </a>
+          <a target="_blank" href="https://apps.apple.com/in/app/upgrad/id1191301447">
+            <button class="btn btn-outline-light d-flex align-items-center justify-content-center gap-2 w-100">
+              <i class="icon-ios"></i> GET THE IOS APP
+            </button>
+          </a>
+        </div>
+      </div>
+    </footer>
+    
+      
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
